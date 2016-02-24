@@ -25,6 +25,7 @@ public class Home
 	
 	{                                               
 		 System.setProperty("atu.reporter.config", "C:\\Aravinda\\Projects\\Test\\atu.properties");
+		 System.out.println("hello");
 	}
 
        
