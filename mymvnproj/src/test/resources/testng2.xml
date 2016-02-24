@@ -1,0 +1,21 @@
+<suite name="yahoo">
+<test name="tst_firefox">
+<parameter name="browser" value="firefox"/>
+
+<classes>
+<class name="yahoo.Test_prog" />
+</classes>
+</test>
+
+<test name="tst_internetexplorer">
+<parameter name="browser" value="internetexplorer"/>
+<classes>
+<class name="yahoo.Test_prog"/>
+</classes>
+</test>
+<listeners>
+<listener class-name="atu.testng.reports.listeners.ATUReportsListener"/>
+<listener class-name="atu.testng.reports.listeners.ConfigurationListener"/>
+<listener class-name="atu.testng.reports.listeners.MethodListener"/>
+</listeners>
+</suite>
