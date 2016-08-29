@@ -18,7 +18,7 @@ public class Compose {
 	WebDriver driver;
 	{
 		 System.setProperty("atu.reporter.config", "C:\\Aravinda\\Projects\\Test\\atu.properties");
-		 System.out.println("just checking");
+		
 	}
 	public Compose(WebDriver driver)
 	{
